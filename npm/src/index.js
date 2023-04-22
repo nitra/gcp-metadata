@@ -25,3 +25,13 @@ export async function getRegion() {
 
   return region
 }
+
+/**
+ * projectId and region in same call
+ *
+ * @returns {Promise<{projectId: string, region: string}>}
+ */
+export async function getProjectInfo() {
+  const [projectId, region] = await await Promise.all([getProjectId(), getRegion()])
+  return { projectId, region }
+}

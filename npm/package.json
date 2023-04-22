@@ -1,7 +1,7 @@
 {
   "name": "@nitra/gcp-metadata",
   "description": "gcp-metadata helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "main": "src/index.js",
   "files": [
@@ -10,6 +10,11 @@
   "keywords": [
     "nitra",
     "gcp-metadata"
+  ],
+  "licenses": [
+    {
+      "type": "MIT"
+    }
   ],
   "repository": {
     "type": "git",
