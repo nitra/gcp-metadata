@@ -11,7 +11,7 @@ export async function getProjectId() {
       projectId = gcpMetadata.project('project-id')
     }
 
-    return projectId
+    return projectId || process.env.GCP_PROJECT
   } catch (e) {
     return process.env.GCP_PROJECT
   }
@@ -28,7 +28,7 @@ export async function getRegion() {
       region = gcpMetadata.project('attributes/google-compute-default-region')
     }
 
-    return region
+    return region || process.env.GCP_REGION
   } catch (e) {
     return process.env.GCP_REGION
   }
