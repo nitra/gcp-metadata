@@ -1,6 +1,11 @@
 import gcpMetadata from 'gcp-metadata'
 
 let projectId
+/**
+ * get GCP project id
+ *
+ * @returns {Promise<{String}>}
+ */
 export async function getProjectId() {
   if (process.env.GCP_PROJECT) {
     return process.env.GCP_PROJECT
@@ -17,6 +22,11 @@ export async function getProjectId() {
 }
 
 let region
+/**
+ * get GCP region
+ *
+ * @returns {Promise<{String}>}
+ */
 export async function getRegion() {
   if (process.env.GCP_REGION) {
     return process.env.GCP_REGION
