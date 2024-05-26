@@ -3,7 +3,6 @@ import gcpMetadata from 'gcp-metadata'
 let projectId
 /**
  * get GCP project id
- *
  * @returns {Promise<{String}>}
  */
 export async function getProjectId() {
@@ -24,7 +23,6 @@ export async function getProjectId() {
 let region
 /**
  * get GCP region
- *
  * @returns {Promise<{String}>}
  */
 export async function getRegion() {
@@ -45,10 +43,9 @@ export async function getRegion() {
 
 /**
  * projectId and region in same call
- *
  * @returns {Promise<{projectId: string, region: string}>}
  */
 export async function getProjectInfo() {
-  const [projectId, region] = await await Promise.all([getProjectId(), getRegion()])
+  const [projectId, region] = await Promise.all([getProjectId(), getRegion()])
   return { projectId, region }
 }

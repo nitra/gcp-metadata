@@ -14,17 +14,10 @@
   "bugs": "https://github.com/nitra/gcp-metadata/issues",
   "homepage": "https://github.com/nitra/gcp-metadata",
   "prettier": "@nitra/prettier-config",
-  "eslintConfig": {
-    "extends": [
-      "@nitra"
-    ],
-    "root": true
-  },
   "devDependencies": {
-    "@nitra/cspell-dict": "^1.0.118",
-    "@nitra/eslint-config": "^1.0.39",
+    "@nitra/cspell-dict": "^1.0.135",
     "@nitra/prettier-config": "^1.0.1"
   },
   "license": "MIT",
-  "packageManager": "yarn@4.0.2"
+  "packageManager": "yarn@4.2.2"
 }
