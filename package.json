@@ -16,6 +16,7 @@
   "prettier": "@nitra/prettier-config",
   "devDependencies": {
     "@nitra/cspell-dict": "^1.0.135",
+    "@nitra/eslint-config": "^2.0.26",
     "@nitra/prettier-config": "^1.0.1"
   },
   "license": "MIT",
