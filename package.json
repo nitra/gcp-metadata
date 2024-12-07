@@ -15,10 +15,10 @@
   "homepage": "https://github.com/nitra/gcp-metadata",
   "prettier": "@nitra/prettier-config",
   "devDependencies": {
-    "@nitra/cspell-dict": "^1.0.135",
-    "@nitra/eslint-config": "^2.0.26",
+    "@nitra/cspell-dict": "^1.0.150",
+    "@nitra/eslint-config": "^2.2.3",
     "@nitra/prettier-config": "^1.0.1"
   },
   "license": "MIT",
-  "packageManager": "yarn@4.2.2"
+  "packageManager": "yarn@4.5.3"
 }

@@ -1,7 +1,7 @@
 {
   "name": "@nitra/gcp-metadata",
   "description": "gcp-metadata helper",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "type": "module",
   "types": "./types/index.d.ts",
   "main": "src/index.js",

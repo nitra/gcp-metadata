@@ -1,25 +1,25 @@
 /**
  * get GCP project id
  *
- * @returns {Promise<{String}>}
+ * @returns {Promise<String>}
  */
 export function getProjectId(): Promise<{
-    String;
-}>;
+  String
+}>
 /**
  * get GCP region
  *
- * @returns {Promise<{String}>}
+ * @returns {Promise<String>}
  */
 export function getRegion(): Promise<{
-    String;
-}>;
+  String
+}>
 /**
  * projectId and region in same call
  *
  * @returns {Promise<{projectId: string, region: string}>}
  */
 export function getProjectInfo(): Promise<{
-    projectId: string;
-    region: string;
-}>;
+  projectId: string
+  region: string
+}>
